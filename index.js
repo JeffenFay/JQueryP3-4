@@ -1,0 +1,19 @@
+$('#sizing').click(function(){
+  if($('#rectangle').height()>'100'){
+      $('#rectangle').css('height','10px');
+  } else {
+    $('#rectangle').height('+=10');
+  }
+});
+$('#greening').click(function(){
+    $('#rectangle').css('background-color','green');
+});
+$('#reseting').click(function(){
+    $('#rectangle').css('background-color','white');
+});
+$('#hiding').click(function(){
+    $('#rectangle').hide();
+});
+$('#showing').click(function(){
+    $('#rectangle').show();
+});
